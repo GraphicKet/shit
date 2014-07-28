@@ -1,4 +1,4 @@
---util.AddNetworkString("joinnewip")
+util.AddNetworkString("joinnewip")
  
 hook.Add("PlayerInitialSpawn", "hey", function(ply)
 net.Start("joinnewip")
