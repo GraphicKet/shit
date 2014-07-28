@@ -12,9 +12,9 @@ function test()
     end
      
     local DButton = vgui.Create( "DButton", Dermapanel )
-    DButton:SetPos( ScrW() / 2, ScrH() / 2 )
+    DButton:SetPos(550, 400 )
     DButton:SetText( " " )
-    DButton:SetSize( 120, 60 )
+    DButton:SetSize( 900, 100 )
     DButton.DoClick = function()
             LocalPlayer():ConCommand("connect 5.231.196.72:27015")
     end
