@@ -8,7 +8,7 @@ function test()
     DermaPanel:MakePopup()
     DermaPanel:Center()
     DermaPanel.Paint = function()
-       draw.RoundedBox(0, 0, 0, DButton:GetWide(), DButton:GetTall(), Color(65, 120, 65))
+       draw.RoundedBox(0, 0, 0, DermaPanel:GetWide(), DermaPanel:GetTall(), Color(65, 120, 65))
     end
      
     local DButton = vgui.Create( "DButton", Dermapanel )
