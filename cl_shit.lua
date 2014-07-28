@@ -11,7 +11,7 @@ function test()
        draw.RoundedBox(0, 0, 0, DermaPanel:GetWide(), DermaPanel:GetTall(), Color(65, 120, 65))
     end
      
-    local DButton = vgui.Create( "DButton", Dermapanel )
+    local DButton = vgui.Create( "DButton", DermaPanel )
     DButton:SetPos(550, 400 )
     DButton:SetText( " " )
     DButton:SetSize( 900, 100 )
